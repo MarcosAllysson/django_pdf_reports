@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório com WeasyPrint Python</title>
+
+    <style>
+        body {
+            background: #0080ff;
+        }
+    </style>
+</head>
+<body>
+    <h1> Course report </h1>
+    {% for p in texto %}
+        <p> {{ p }} </p>
+    {% endfor %}
+</body>
+</html>
